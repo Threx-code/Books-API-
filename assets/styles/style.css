@@ -1,0 +1,84 @@
+body { padding-top: 5rem; 
+}
+.starter-template { padding: 3rem 1.5rem; 
+}
+
+.copyright{
+  text-align: center;
+}
+
+.SubmitLoader{
+border:5px solid #f3f3f3!important;
+border-top: 5px solid #0376aa!important;
+border-radius: 50%!important;
+width: 30px!important;
+height: 30px!important;
+animation: spin 1s linear infinite!important;
+margin:0% auto;
+margin-top:10px;
+        
+}
+
+@keyframes spin{
+0%{transform: rotate(0deg);}
+100%{transform: rotate(360deg);
+}
+}
+
+@media only screen 
+and (min-width: 360px)
+and (max-width: 480px){
+.container{
+  width: 90%;
+}
+}
+
+@media only screen 
+and (min-width: 480px)
+and (max-width: 576px){
+  .container{
+  width: 90%;
+}
+}
+
+@media only screen 
+and (max-width: 576px){
+  .container{
+  width: 80%;
+}
+
+}
+
+@media only screen 
+and (min-width: 576px)
+and (max-width: 768px){
+  .container{
+  width: 80%;
+}
+
+}
+
+@media only screen 
+and (min-width: 768px)
+and (max-width: 992px){
+  .container{
+  width: 60%;
+}
+}
+
+@media only screen 
+and (min-width: 992px)
+and (max-width: 1200px){
+  .container{
+  width: 50%;
+}
+
+}
+
+@media only screen 
+and (min-width: 1200px)
+and (max-width: 1250px){
+    .container{
+  width: 50%;
+}
+}
